@@ -2,21 +2,21 @@
 
 ## Overview
 
-This is renewed application from [phpAmazonShop](https://github.com/dotnsf/phpAmazonShop], which crawls items information via Amazon API, and create records in WordPress database.
+This is renewed application from [phpAmazonShop](https://github.com/dotnsf/phpAmazonShop), which crawls items information via Amazon API, and create records in WordPress database.
 
 ## Pre-requisite
 
 - WordPress (PHP+MySQL+WordPress files)
 
-- Amazon Affiliate account
+- Amazon Affiliate account (https://affiliate.amazon.co.jp/)
 
 ## Install
 
-- Initialize your WordPress.
+- Setup and Initialize your WordPress.
 
-    - Remove default post(Helloworld).
+- Set permanent link as 'Basic'.
 
-    - Set permanent link as 'Basic'.
+- Remove default post(Helloworld), if you want.
 
 - git clone or download from https://github.com/dotnsf/wpAmazonShop
 
@@ -25,6 +25,8 @@ This is renewed application from [phpAmazonShop](https://github.com/dotnsf/phpAm
     - You can leave 'AWS_ASSOC_TAG' as blank if you don't want to use affiliate' blank if you don't want to enable your affiliate.
 
 - Edit $nodes array in main.php as your favorite items category.
+
+    - See [information](https://affiliate.amazon.co.jp/help/topic/t100) for example.
 
 - Run main.php ( $ php -f main.php ).
 
