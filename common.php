@@ -263,7 +263,13 @@ function getItemSearchAmazonAPI($node,$min,$max,$item_page = 0,$aws_host = 'ecs.
                           $content .= '<tr><td>商品コード</td><td>' . $ean . '</td></tr>';
 			}
                         $content .= '</table>';
-                        $record = array( 'ID' => 0, 'title' => $title, 'content' => $content, 'category' => $category );
+                        $record = array( 'ID' => 0, 'title' => $title, 'content' => $content );
+			if( $category ){
+				$record['category'] = $category;
+			}
+			if( $brand ){
+				$record['tag'] = $brand;
+			}
                         $records[] = $record;
 
 			$idx ++;
