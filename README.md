@@ -6,7 +6,7 @@ This is renewed application from [phpAmazonShop](https://github.com/dotnsf/phpAm
 
 ## Pre-requisite
 
-- WordPress (PHP+MySQL+Application set)
+- WordPress (PHP+MySQL+WordPress files)
 
 - Amazon Affiliate account
 
@@ -30,7 +30,9 @@ This is renewed application from [phpAmazonShop](https://github.com/dotnsf/phpAm
 
     - When finished, you will see your WordPress contains items information with your choice in $nodes.
 
-- You can customize top page as your favorites.
+- You can customize top page as your favorites, with themes or plugins.
+
+    - [Shop Isle](https://ja.wordpress.org/themes/shop-isle/) theme for example.
 
 
 ## License
