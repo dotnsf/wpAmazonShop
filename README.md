@@ -10,6 +10,8 @@ This is renewed application from [phpAmazonShop](https://github.com/dotnsf/phpAm
 
 - Amazon Affiliate account (https://affiliate.amazon.co.jp/)
 
+    - See [this page](http://dotnsf.blog.jp/archives/1062052263.html) for detail.
+
 ## Install
 
 - Setup and Initialize your WordPress.
@@ -26,7 +28,7 @@ This is renewed application from [phpAmazonShop](https://github.com/dotnsf/phpAm
 
 - Edit $nodes array in main.php as your favorite items category.
 
-    - See [information](https://affiliate.amazon.co.jp/help/topic/t100) for example.
+    - See [information](https://affiliate.amazon.co.jp/help/topic/t100) for detail.
 
 - Run main.php ( $ php -f main.php ).
 
